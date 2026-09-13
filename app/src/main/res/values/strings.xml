@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Mobility Lens</string>
+
+    <string name="app_title">Mobility Lens</string>
+
+    <string name="introduction">
+        Mobile apps have to work in situations that desktop apps usually do not
+        Move through the six dimensions below to see what a developer should think about
+    </string>
+
+    <string name="dimension_counter">Dimension %1$d of %2$d</string>
+
+    <string name="constraint_label">Mobile constraint</string>
+    <string name="implication_label">What this means for a developer</string>
+
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+
+    <string name="application_name_label">App or feature name</string>
+    <string name="check_design">Check my design</string>
+
+    <string name="blank_input_error">Enter an app or feature name first</string>
+
+    <!-- Dimension 1 -->
+    <string name="dimension_input">Input and interaction</string>
+
+    <string name="input_description">
+        Phones mainly rely on touch, so users do not have the same precision they would get from a mouse or keyboard
+    </string>
+
+    <string name="input_implication">
+        Buttons and other controls should be easy to tap and important actions should not depend on tiny targets or precise movements
+    </string>
+
+    <!-- Dimension 2 -->
+    <string name="dimension_screen">Screen size, orientation, and density</string>
+
+    <string name="screen_description">
+        A phone has limited screen space and the available layout can change when the device rotates or runs on a different screen size
+    </string>
+
+    <string name="screen_implication">
+        The interface should focus on what matters most and should still be usable when the screen size or orientation changes
+    </string>
+
+    <!-- Dimension 3 -->
+    <string name="dimension_lifecycle">Lifecycle and resource constraints</string>
+
+    <string name="lifecycle_description">
+        A mobile app can be paused, stopped, recreated or removed from memory while the user moves between apps
+    </string>
+
+    <string name="lifecycle_implication">
+        Developers should not assume the app will stay running. Important state should be saved when losing it would interrupt the user
+    </string>
+
+    <!-- Dimension 4 -->
+    <string name="dimension_context">Context awareness</string>
+
+    <string name="context_description">
+        Phones move with the user and can react to things like location, movement, connectivity and the surrounding environment
+    </string>
+
+    <string name="context_implication">
+        Context can make an app more useful but developers should only use information that actually helps the feature and should handle unavailable data
+    </string>
+
+    <!-- Dimension 5 -->
+    <string name="dimension_usage">Usage patterns</string>
+
+    <string name="usage_description">
+        People often use mobile apps in short sessions while walking, commuting, waiting or doing something else at the same time
+    </string>
+
+    <string name="usage_implication">
+        Common tasks should be quick to understand and finish without making the user go through unnecessary steps
+    </string>
+
+    <!-- Dimension 6 -->
+    <string name="dimension_security">Security and privacy expectations</string>
+
+    <string name="security_description">
+        Phones can contain personal information and are easily carried, shared, misplaced or stolen
+    </string>
+
+    <string name="security_implication">
+        An app should collect only the information it needs, protect sensitive data and avoid requesting permissions without a clear reason
+    </string>
+
+    <string name="success_message">
+        When designing %1$s, think about %2$s
+    </string>
+
+</resources>
