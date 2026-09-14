@@ -14,13 +14,17 @@ import androidx.compose.ui.platform.LocalContext
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
     secondary = PurpleGrey80,
-    tertiary = Pink80
+    tertiary = Pink80,
+    surfaceVariant = Purple80
 )
 
+
+
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
+    primary = AndroidGreen,
+    secondary = AndroidGreenDark,
+    tertiary = Pink40,
+    surfaceVariant = AndroidGreenLight
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),
@@ -36,8 +40,7 @@ private val LightColorScheme = lightColorScheme(
 @Composable
 fun MobilityLensTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {

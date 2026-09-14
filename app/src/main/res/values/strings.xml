@@ -4,8 +4,7 @@
     <string name="app_title">Mobility Lens</string>
 
     <string name="introduction">
-        Mobile apps have to work in situations that desktop apps usually do not
-        Move through the six dimensions below to see what a developer should think about
+        Mobile apps have to work in situations that desktop apps usually don\'t\nMove through the six dimensions below to see what a developer should think about
     </string>
 
     <string name="dimension_counter">Dimension %1$d of %2$d</string>
@@ -25,18 +24,18 @@
     <string name="dimension_input">Input and interaction</string>
 
     <string name="input_description">
-        Phones mainly rely on touch, so users do not have the same precision they would get from a mouse or keyboard
+        Phones mainly rely on touch, so users don\'t have the same precision they would get from a mouse or keyboard
     </string>
 
     <string name="input_implication">
-        Buttons and other controls should be easy to tap and important actions should not depend on tiny targets or precise movements
+        Buttons and other controls should be easy to tap and important actions shouldn\'t depend on tiny targets or precise movements
     </string>
 
     <!-- Dimension 2 -->
     <string name="dimension_screen">Screen size, orientation, and density</string>
 
     <string name="screen_description">
-        A phone has limited screen space and the available layout can change when the device rotates or runs on a different screen size
+        A phone has limited screen space and the layout can change when the device rotates or runs on a different screen size
     </string>
 
     <string name="screen_implication">
@@ -51,7 +50,7 @@
     </string>
 
     <string name="lifecycle_implication">
-        Developers should not assume the app will stay running. Important state should be saved when losing it would interrupt the user
+        Developers shouldn\'t assume the app will stay running, important state should be saved when losing it would interrupt the user
     </string>
 
     <!-- Dimension 4 -->
@@ -84,7 +83,7 @@
     </string>
 
     <string name="security_implication">
-        An app should collect only the information it needs, protect sensitive data and avoid requesting permissions without a clear reason
+        An app should only collect information it needs, protect sensitive data and avoid requesting permissions without a clear reason
     </string>
 
     <string name="success_message">

@@ -35,9 +35,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.res.stringResource
-
-
-
+import androidx.compose.material3.CardDefaults
+import com.namratha.mobilitylens.ui.theme.AndroidGreen
 
 
 //DEFINED LAYOUT PROPERTIES
@@ -89,7 +88,8 @@ fun MobilityLensApp(){
         ) {
             Text(
                 text = stringResource(R.string.app_title),
-                style = MaterialTheme.typography.headlineMedium
+                style = MaterialTheme.typography.headlineMedium,
+                color = MaterialTheme.colorScheme.primary
             )
 
             Spacer(modifier = Modifier.height(8.dp))
@@ -113,7 +113,10 @@ fun MobilityLensApp(){
             Spacer(modifier = Modifier.height(8.dp))
 
             Card(
-                modifier = Modifier.fillMaxWidth()
+                modifier = Modifier.fillMaxWidth(),
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.surfaceVariant
+                )
             ) {
                 Column(
                     modifier = Modifier.padding(18.dp)
@@ -248,14 +251,13 @@ fun MobilityLensPreview() {
     }
 }
 
-/*@Preview(name = "Dark Mode", showBackground = true)
+@Preview(name = "Dark Mode", showBackground = true)
 @Composable
 fun DarkPreview() {
     MobilityLensTheme(darkTheme = true) {
-        Greeting(name="Namratha")
-        //MobilityLensApp()
+        MobilityLensApp()
     }
-}*/
+}
 
 //ADDED
 
